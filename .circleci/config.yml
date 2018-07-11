@@ -14,7 +14,10 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       - image: circleci/mysql:5
       - image: circleci/mysql:5.5
-      - image: circleci/mysql:5.5.56
+      - image: circleci/mysql:latest
+      - image: circleci/mysql:5.6-ram
+      - image: circleci/mysql:5.7
+      - image: circleci/mysql:8
 
     working_directory: ~/repo
 
