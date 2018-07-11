@@ -12,27 +12,27 @@ jobs:
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
-      - image: circleci/golang:1
-      - image: circleci/jruby:latest
-      - image: circleci/mariadb:10
-      - image: circleci/mariadb:latest
-      - image: circleci/mongo:3
-      - image: circleci/mongo:3.6
-      - image: circleci/mongo:4
-      - image: circleci/mongo:latest
-      - image: circleci/mysql:5
-      - image: circleci/mysql:5.5
-      - image: circleci/mysql:5.5.60
-      - image: circleci/mysql:5.6.36
-      - image: circleci/mysql:5.7
-      - image: circleci/mysql:8
-      - image: circleci/mysql:8.0
-      - image: circleci/mysql:8.0.11
-      - image: circleci/mysql:8.0.2
-      - image: circleci/mysql:8.0.3
-      - image: circleci/mysql:8.0.4
-      - image: circleci/mysql:latest
-
+      - image: circleci/node:10-browsers
+      - image: circleci/node:10-jessie-browsers
+      - image: circleci/node:10-stretch-browsers
+      - image: circleci/node:10.6-browsers
+      - image: circleci/node:10.6-jessie-browsers
+      - image: circleci/node:10.6-stretch-browsers
+      - image: circleci/node:10.6.0-browsers
+      - image: circleci/node:10.6.0-jessie-browsers
+      - image: circleci/node:10.6.0-stretch-browsers
+      - image: circleci/node:6-browsers
+      - image: circleci/node:6-jessie-browsers
+      - image: circleci/node:6-stretch-browsers
+      - image: circleci/node:6.14-browsers
+      - image: circleci/node:6.14-jessie-browsers
+      - image: circleci/node:6.14-stretch-browsers
+      - image: circleci/node:6.14.3-browsers
+      - image: circleci/node:6.14.3-jessie-browsers
+      - image: circleci/node:6.14.3-stretch-browsers
+      - image: circleci/node:8-browsers
+      - image: circleci/node:8-jessie-browsers
+      - image: circleci/node:8-stretch-browsers
 
     working_directory: ~/repo
 
