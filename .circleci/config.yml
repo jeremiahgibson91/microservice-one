@@ -14,10 +14,25 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       - image: circleci/mysql:5
       - image: circleci/mysql:5.5
-      - image: circleci/mysql:latest
       - image: circleci/mysql:5.6-ram
       - image: circleci/mysql:5.7
       - image: circleci/mysql:8
+      - image: circleci/mysql:8-ram
+      - image: circleci/mysql:8.0
+      - image: circleci/mysql:8.0-ram
+      - image: circleci/mysql:8.0.11
+      - image: circleci/mysql:8.0.11-ram
+      - image: circleci/mysql:8.0.2
+      - image: circleci/mysql:8.0.2-ram
+      - image: circleci/mysql:8.0.3
+      - image: circleci/mysql:8.0.3-ram
+      - image: circleci/mysql:8.0.4
+      - image: circleci/mysql:8.0.4-ram
+      - image: circleci/mysql:8.0.4-rc
+      - image: circleci/mysql:8.0.4-rc-ram
+      - image: circleci/mysql:latest
+      - image: circleci/mysql:latest-ram
+
 
     working_directory: ~/repo
 
