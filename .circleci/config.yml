@@ -8,31 +8,9 @@ jobs:
     docker:
       # specify the version you desire here
       - image: circleci/node:7.10
-
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
-      - image: circleci/node:10-browsers
-      - image: circleci/node:10-jessie-browsers
-      - image: circleci/node:10-stretch-browsers
-      - image: circleci/node:10.6-browsers
-      - image: circleci/node:10.6-jessie-browsers
-      - image: circleci/node:10.6-stretch-browsers
-      - image: circleci/node:10.6.0-browsers
-      - image: circleci/node:10.6.0-jessie-browsers
-      - image: circleci/node:10.6.0-stretch-browsers
-      - image: circleci/node:6-browsers
-      - image: circleci/node:6-jessie-browsers
-      - image: circleci/node:6-stretch-browsers
-      - image: circleci/node:6.14-browsers
-      - image: circleci/node:6.14-jessie-browsers
-      - image: circleci/node:6.14-stretch-browsers
-      - image: circleci/node:6.14.3-browsers
-      - image: circleci/node:6.14.3-jessie-browsers
-      - image: circleci/node:6.14.3-stretch-browsers
-      - image: circleci/node:8-browsers
-      - image: circleci/node:8-jessie-browsers
-      - image: circleci/node:8-stretch-browsers
 
     working_directory: ~/repo
 
